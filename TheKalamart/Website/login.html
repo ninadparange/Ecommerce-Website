@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>login form and Registration form here</title>
+<meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+   <link rel="stylesheet"  href="css/login.css"></head>
+<body>
+    <div class="hero" style="background-image: url(img/gift.jpg);">
+       <div class="form-box"> 
+        <div class="button-box">
+           <div id="btn"></div>
+          <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+          <button type="button" class="toggle-btn" onclick="register()">Register</button>
+       </div>
+       <form id="login" class="input-group" action="login.php" method="POST">
+          <input type="text" class="input-field" placeholder="user name" name="User_Name" required>
+          <input type="text" class="input-field" placeholder="Password" name="password" required>
+          <input type="checkbox" class="checkbox">
+          <span>Remember pass</span>
+          <button type="submit" class="submit-btn"> Log In</button>
+       </form>
+      
+
+
+       <form id="register" class="input-group" action="register.php" method="POST">
+        <input type="text" class="input-field" placeholder="user name" name="user_name" required>
+        <input type="tel" class="input-field" placeholder="phone no" name="phone_no" required>
+        <input type="email" class="input-field" placeholder="Email Id" name="email_id" required>
+        <input type="password" class="input-field" placeholder="password" name="password" title="Eight or more characters">
+        <input type="textarea" class="input-field" placeholder="Address" name="address" required>
+        <input type="checkbox" class="checkbox">
+        <span>I agree to the terms & condition</span>
+        <button type="submit" class="submit-btn"> Register </button>
+     </form>
+
+      </div>
+   
+   </div> 
+</div>
+
+   <script>
+      var x = document.getElementById("login");
+      var y = document.getElementById("register")
+      var z = document.getElementById("btn")
+
+      
+      function register(){
+         x.style.left="-400px";
+         y.style.left="10px";
+         z.style.left="100px";
+         }
+    function login(){
+         x.style.left="10px";
+         y.style.left="450px";
+         z.style.left="100px";
+         }
+
+
+   </script>      
+</body>
+</html>      
+
+
+
+
+
