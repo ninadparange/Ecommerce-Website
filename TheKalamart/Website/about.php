@@ -64,19 +64,19 @@
             <div class="profiles">
               <div class="profile">
                 <img src="img/ss2.jpeg" class="profile-img">
-                <h3 class="user-name">Snehal Parange</h3>
+                <h3 class="user-name"></h3>
                 <h5>Creative Director</h5>
               </div>
               <div class="profile">
                 <img src="img/sahil2.jfif" class="profile-img">
         
-                <h3 class="user-name">Sahil Parange</h3>
+                <h3 class="user-name"></h3>
                 <h5>Managing Director</h5>
               </div>
               <div class="profile">
                 <img src="img/pp.jpg" class="profile-img">
         
-                <h3 class="user-name">Varsha Jyoti</h3>
+                <h3 class="user-name"></h3>
                 <h5>Project Manager</h5>
               </div>
             </div>
